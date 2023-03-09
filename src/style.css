@@ -114,7 +114,6 @@ li {
     height: 100%;
     object-fit: cover;
     object-position: center;
-
 }
 
 .slide__copy {
@@ -153,6 +152,7 @@ li {
     font-weight: 700;
     text-transform: uppercase;
     transition: 0.5s all ease;
+    box-shadow: 0 .3rem .3rem #807f7f97;
 }
 
 .btn:hover,
@@ -226,6 +226,56 @@ li {
 
 .btn--institutional:hover {
     color: var(--color-copy);
+    background: unset;
+    box-shadow: 0 .5rem .5rem #0006;
+}
+
+.quote {
+    background-image: url(./images/parallax.jpg);
+        background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.quote__container{
+    display: grid;
+    align-items: center;
+    justify-items: end;
+    min-height: 80vh;
+}
+
+.quote__copy {
+    background-color: #fff;
+    padding: 5.625rem 4.375rem;
+
+}
+
+.quote__copy h6 {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    letter-spacing: 0.1875rem;
+    line-height: 1.4375rem;
+    max-width: 53ch;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.quote__copy h2{
+    font-size: 5rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+    letter-spacing: -0.1875rem;
+    margin: 1.875rem 0;
+}
+
+.quote__copy h2 span {
+    display: block;
+}
+
+.btn--quote {
+    color: var(--color-copy);
+    border-color: var(--color-copy);
     background: unset;
     box-shadow: 0 .5rem .5rem #0006;
 }
