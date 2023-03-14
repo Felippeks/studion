@@ -369,17 +369,14 @@ li {
 .footer__social a:active {
     color: #fff;
     margin-left: 0.2rem;
-    transition: transform 0.3s ease-in-out;
+    
 }
+
 
 .footer__social a .fa-twitter,
 .footer__social a:visited .fa-twitter,
 .footer__social a:active .fa-twitter {
     color: #000;
-}
-
-.footer__social a:hover: {
-    transform: scale(1.1);
 }
 
 .footer hr {
