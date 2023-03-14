@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;900&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
 
 * {
     box-sizing: border-box;
@@ -278,4 +279,35 @@ li {
     border-color: var(--color-copy);
     background: unset;
     box-shadow: 0 .5rem .5rem #0006;
+}
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 0 1rem;
+
+}
+.footer__container {
+    display: grid;
+    grid-template-columns:repeat(3, auto);
+    align-items: center;
+    padding: 5.25rem 0 3.75rem 0;
+}
+
+.footer .logo-studion {
+    justify-self: start;
+    margin: 0;
+
+}
+.logo-studion__subtitle{
+    display: block;
+    line-height: 4ch;
+
+}
+
+.footer__form{
+    justify-self: center;
+}
+
+.footer__social{
+    justify-self: end;
 }
